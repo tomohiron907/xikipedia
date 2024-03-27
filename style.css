@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #15202B;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #timeline {
+    width: 500px;
+    margin: 0 auto;
+  }
+  
+  .article {
+    background-color: #15202B;
+    color: #fff;
+    border: 1px solid #525252;
+    border-radius: 5px;
+    padding: 10px;
+    
+  }
+  
+  .article h3 {
+    margin-top: 0;
+  }
+  
+  .article p {
+    margin-bottom: 0;
+    margin-left: 60px;
+  }
+  .article-image-thumbnail {
+    width: 50px; /* 画像の幅 */
+    height: 50px; /* 画像の高さ */
+    border-radius: 50%; /* 画像を丸く切り取る */
+    object-fit: cover; /* 画像が歪まず、余白なく表示される */
+    margin-right: 10px; /* 画像とタイトルの間隔 */
+    vertical-align: middle; /* 画像を垂直方向で中央に揃える */
+  }
+  .article-image {
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-left: 60px;
+}
+  .article-title-wrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .article-title {
+    margin: 0;
+    font-size: 18px;
+  }
+
