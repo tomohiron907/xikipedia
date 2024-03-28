@@ -4,7 +4,30 @@ body {
   display: flex;
   justify-content: center; 
 }
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: transparent;
+  z-index: 1000; /* ロゴが最前面に表示されるようにする */
+}
 
+.logo {
+  max-width: 100%;
+  padding: 0px; /* ロゴの余白調整 */
+  background-color: #15202B; /* 透過部分の背景色 */
+  display: flex;
+  justify-content: center; 
+  padding: 10px;
+  border-bottom: 1px solid #525252;
+}
+
+.logo img {
+  width: 180px;
+  height: auto;
+  background-color: #15202B; /* 透過部分の背景色 */
+}
 #timeline {
   width: 500px; 
 }
